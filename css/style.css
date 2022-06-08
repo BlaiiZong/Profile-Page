@@ -25,7 +25,7 @@ header {
 
 .container {
     margin-top: 10px;
-    padding: 50px 20px;
+    padding: 50px 20px 0px;
     overflow: hidden;
 }
 
@@ -46,14 +46,30 @@ button {
     border-radius: 5px;
     padding: 10px;
     background-color: aquamarine;
+    /* background-color: coral; */
     color: coral;
     font-weight: bold;
 }
 
 a {
+    color: coral;
     text-decoration: none;
 }
 
 a:visited {
     color: coral;
 }
+
+.button {
+    background-color: aquamarine;
+    background-color: #00FFFF;
+    color: coral;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+  }
