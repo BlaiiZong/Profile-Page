@@ -42,12 +42,12 @@ header {
 }
 
 a {
-    color: green;
+    color: #d42b98;
     text-decoration: none;
 }
 
 a:visited {
-    color: coral;
+    color: #d42b98;
 }
 
 .button {
